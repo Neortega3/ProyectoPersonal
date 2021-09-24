@@ -14,7 +14,7 @@
 		<div class="img-login">	
 			<center><img src="../IMAGES/mercado.jpg" id="img-login"></center>
 				<div class="login-usuario">
-					<form class="formulario" name="formulario">
+					<form class="formulario" name="formulario" action="../prueba" method="post">
 	            		<div class="form-titulo">
 			            	 <center><h2>Ingrese sus Credenciales:</h2></center>
 			            </div><br>
@@ -27,7 +27,7 @@
 			                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="" name="contrasena">
 			              </div><br>
 			              <div class="form-group">
-			                <button type="submit" class="btn btn-primary" id="btn-ingresar" onclick="validacion()">Ingresar</button>
+			                <button type="submit" class="btn btn-primary" id="btn-ingresar" onclick="">Ingresar</button>
 			              </div>
 			              <div class="form-group">
 			                <button type="submit" class="btn btn-primary" id="btn-ingresar">Olvidó su contraseña</button>
@@ -38,6 +38,6 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-	    <script src="../JS/validacion.js"></script>
+	    <!--  <script src="../JS/validacion.js"></script>-->
 	</body>
 </html>
