@@ -16,7 +16,7 @@
 				<div class="login-usuario">
 					<form class="formulario" name="formulario">
 	            		<div class="form-titulo">
-			            	 <center><h2>Inicio de Sesión:</h2></center>
+			            	 <center><h2>Ingrese sus Credenciales:</h2></center>
 			            </div><br>
 			             <div class="form-group">
 			                <label for="cedula"><i class="bi bi-person" name="usuario"></i><strong> Usuario:</strong></label>
